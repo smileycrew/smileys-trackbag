@@ -9,7 +9,7 @@ export default function ButtonGroup() {
   )
 
   const resetToInitial = useItemsStore((state) => state.resetToInitial)
-  
+
   const removeAllItems = useItemsStore((state) => state.removeAllItems)
 
   return (
